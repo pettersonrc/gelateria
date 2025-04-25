@@ -2,8 +2,8 @@ import estilos from "./Cabecalho.module.css"
 
 export default function Cabecalho () {
     return (
-        <main>
-            <h1>NOSSOS SABORES</h1>
-        </main>
+        <div className={estilos.container}>
+            <h1 className={estilos.titulo}>NOSSOS SABORES</h1>
+        </div>
     )
 }

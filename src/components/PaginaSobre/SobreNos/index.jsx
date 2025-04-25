@@ -2,7 +2,7 @@ import estilos from "./SobreNos.module.css"
 
 export default function SobreNos () {
     return (
-        <main>
+        <div className={estilos.container_texto}>
             <h2>Sobre Nós</h2>
             <span>Nós simplesmente amamos sorvete!</span>
             <p>
@@ -11,6 +11,6 @@ export default function SobreNos () {
             <p>
                 Nossos clientes podem comprar os nossos sorvetes e degustar na nossa loja ou levar para sua residência e aproveitar junto com a família. Também vendemos para estabelecimentos e criamos eventos como festa de aniversário, formaturas e eventos empresariais. Para contratar os nossos serviços, basta entrar em contato conosco. Iremos proporcionar o melhor atendimento e os melhores produtos para você fazer a sua festa mais saborosa, com o melhor sorvete da cidade.
             </p>
-        </main>
+        </div>
     )
 }

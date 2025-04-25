@@ -1,0 +1,23 @@
+.container_texto {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container_texto h2 {
+    font-size: 32px;
+}
+
+.container_texto span {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container_texto p {
+    font-size: 16px;
+}

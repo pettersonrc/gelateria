@@ -1,0 +1,38 @@
+.topo {
+    width: 100%;
+    background-color: #f9db79;
+}
+
+.container_largura {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.lista_nav {
+    font-size: 18px;
+    padding: 20px 0px;
+
+    display: flex;
+    gap: 40px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .container_largura {
+        flex-direction: column;
+    }
+}
